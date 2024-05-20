@@ -1,0 +1,40 @@
+.class{
+  background-color: #323640;
+  padding: 1vw;
+  border-radius: 1vw;
+  width: 21.3%;
+  box-shadow: 0 3px 9px 0 rgba(0,0,0,0.2);
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.class:hover{
+  background-color: #262c38;
+  box-shadow: 0 10px 15px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.tags {
+  display: flex;
+  gap: 1vw;
+  flex-wrap: wrap;
+}
+
+.tags span{
+  background-color: #262c38;
+  padding: 0.5vw;
+  border-radius: 0.5vw;
+  transition: 0.3s;
+}
+.tags span:hover{
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
+}
+
+.teachers{
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  margin-bottom: 3vh;
+}
+

@@ -1,0 +1,9 @@
+.class-body{
+  padding: 2vw;
+}
+
+.classes{
+  display: flex;
+  gap: 2vw;
+  flex-wrap: wrap;
+}
