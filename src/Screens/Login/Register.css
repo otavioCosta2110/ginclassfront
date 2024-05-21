@@ -1,0 +1,42 @@
+.register{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.register-form {
+  background-color: #323640;
+  padding: 2vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border-radius: 1vw;
+  box-shadow: 0 9px 15px 0 rgba(0,0,0,0.2);
+  margin: auto;
+  width: 30vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5vh;
+}
+.register-form button{
+  background-color: #262c38;
+  color: white;
+  border: none;
+  border-radius: 0.5vw;
+  height: 3vw;
+  width: 70%;
+  margin: auto;
+}
+.register-form input{
+  border: none;
+  border-radius: 0.5vw;
+  height: 5vh;
+  padding-left: 1vw;
+}
+
+.isTeacher{
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+}
