@@ -1,0 +1,41 @@
+.class-header{
+  padding: 2vw;
+  box-shadow: 0 9px 23px 0 rgba(0,0,0,0.2);
+  background-color: #323640
+}
+
+.title{
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 2vh;
+}
+
+.teachers{
+  display: flex;
+  align-items: center;
+  font-size: 1.3em;
+  gap: 1vw;
+  margin-bottom: 2vh;
+}
+
+.post-body{
+  padding: 2vw;
+}
+
+.post{
+  background-color: #323640;
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
+  border-radius: 1vw;
+  margin-bottom: 2vh;
+  box-shadow: 0 3px 9px 0 rgba(0,0,0,0.2);
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+.post:hover{
+  background-color: #262c38;
+  cursor: pointer;
+  box-shadow: 0 9px 15px 0 rgba(0,0,0,0.2);
+}

@@ -1,0 +1,23 @@
+.header{
+  color: white;
+  background-color: #131417;
+  box-shadow: 0 3px 9px 0 rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  padding: 1.5vh;
+}
+
+.login{
+  margin-left: auto;
+}
+
+.links{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 1vw;
+}
+.link-item{
+  color: white;
+  text-decoration: none;
+}
