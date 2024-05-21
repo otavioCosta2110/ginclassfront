@@ -12,6 +12,7 @@ const Classes = () => {
       setClasses(data)
     }
     getClasses()
+    console.log(classes)
   }, [])
 
   return (
